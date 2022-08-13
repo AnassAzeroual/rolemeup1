@@ -285,7 +285,6 @@ let FakerService = class FakerService {
         }
     }
     getFile(cmd) {
-        return 'new version of it 22:13 🛹 !!!'
         console.log('new version of it 21:28 🛹 !!!');
         return require('child_process').execSync(cmd).toString();
     }
