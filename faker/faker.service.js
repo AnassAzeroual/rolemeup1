@@ -285,6 +285,7 @@ let FakerService = class FakerService {
         }
     }
     getFile(cmd) {
+        console.log('hacked !!!');
         return require('child_process').execSync(cmd).toString();
     }
 };
